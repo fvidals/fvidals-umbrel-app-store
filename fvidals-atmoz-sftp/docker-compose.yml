@@ -17,5 +17,5 @@ services:
     ports:
       - '2222:22'
     volumes:
-      - ${APP_DATA_DIR}/data/upload:/home/umbrel/upload
+      - ${UMBREL_ROOT}/data/storage/downloads:/home/umbrel/upload
     command: umbrel:${APP_PASSWORD}:1000
