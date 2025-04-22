@@ -2,7 +2,7 @@ manifestVersion: 1
 id: fvidals-atmoz-sftp
 category: networking
 name: Atmoz SFTP
-version: "1.0.5"
+version: "1.0.6"
 tagline: Creates a SFTP server
 description: Creates a SFTP server
 developer: Atmoz
