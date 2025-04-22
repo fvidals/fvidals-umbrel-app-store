@@ -3,7 +3,7 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: atmoz_sftp_homepage_1
+      APP_HOST: fvidals-atmoz-sftp_homepage_1
       APP_PORT: 80
 
   homepage:
@@ -17,5 +17,5 @@ services:
     ports:
       - '2222:22'
     volumes:
-      - ${UMBREL_ROOT}/data/storage/downloads:/home/umbrel/upload
+      - ${UMBREL_ROOT}/data/storage:/home/umbrel/storage
     command: umbrel:${APP_PASSWORD}:1000
