@@ -1,20 +1,21 @@
 manifestVersion: 1
 id: fvidals-atmoz-sftp
+category: media
 name: Atmoz SFTP
+version: "1.0.2"
 tagline: Creates a SFTP server
-icon: https://raw.githubusercontent.com/fvidals/fvidals-umbrel-apps-gallery/refs/heads/main/fvidals-atmoz-sftp/icon.png
-category: Networking
-version: "1.0.1"
-port: 2222
 description: Creates a SFTP server
 developer: Atmoz
-website: https://github.com/atmoz/sftp
-submitter: fvidals
-submission: https://github.com/fvidals
-repo: https://github.com/fvidals/fvidals-umbrel-app-store
-support: https://github.com/fvidals/fvidals-umbrel-app-store
-releaseNotes: ""
 dependencies: []
+port: 2222
+icon: https://raw.githubusercontent.com/fvidals/fvidals-umbrel-apps-gallery/refs/heads/main/fvidals-atmoz-sftp/icon.png
+gallery: []
+repo: https://github.com/atmoz/sftp
+support: https://github.com/fvidals/fvidals-umbrel-app-store
+website: https://github.com/fvidals/fvidals-umbrel-app-store
+releaseNotes: ""
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+submitter: fvidals
+submission: https://github.com/fvidals
